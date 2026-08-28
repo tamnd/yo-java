@@ -6,12 +6,12 @@ JVM client for [yo](https://github.com/tamnd/yo), an embedded multi-model databa
 
 Nothing to use yet, and the artifact on Maven Central says so out loud.
 
-`com.tamnd:yodb:0.0.0` resolves, compiles and throws:
+`com.tamnd:yodb:0.0.1` resolves, compiles and throws:
 
 ```java
 com.tamnd.yodb.Yo.open("app.yo");
 // java.lang.UnsupportedOperationException: yo is not usable yet. This is a reserved
-// placeholder at 0.0.0; see https://github.com/tamnd/yo
+// placeholder at 0.0.1; see https://github.com/tamnd/yo
 ```
 
 The version is held so the coordinate is held. `com.tamnd` verifies against `tamnd.com`, which is a registered domain, so nobody else can publish under it.
@@ -26,7 +26,7 @@ Artifacts on Central are signed with the key whose fingerprint is `F737 055C 3AC
 <dependency>
   <groupId>com.tamnd</groupId>
   <artifactId>yodb</artifactId>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
 </dependency>
 ```
 
